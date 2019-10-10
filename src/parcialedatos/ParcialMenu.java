@@ -48,13 +48,13 @@ public class ParcialMenu {
                 break;
                
             case 7:
-                datos.setFecha("Octubre 10 , 2019.");
+                datos.setFecha("10 Octubre del 2019");
                 JOptionPane.showMessageDialog(null, datos.getFecha());
                 break;
                
             case 8:
                 i=0;
-                JOptionPane.showMessageDialog(null, "Saliendo...");
+                JOptionPane.showMessageDialog(null, "FIN!");
                 break;
                
             default:
