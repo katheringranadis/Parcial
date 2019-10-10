@@ -1,17 +1,15 @@
 
 package parcialedatos;
 
+import javax.swing.JOptionPane;
+
 public class ParcialEDatos {
     
     private int id;
     private String fecha;
     private String nombre;
-    private String commit;
-    private String push;
-    private String pull;
-    private String clase;
-    private String objeto;
-
+   
+        
     public int getId() {
         return id;
     }
@@ -36,45 +34,30 @@ public class ParcialEDatos {
         this.nombre = nombre;
     }
 
-    public String getCommit() {
-        return commit;
-    }
-
-    public void setCommit(String commit) {
-        this.commit = commit;
-    }
-
-    public String getPush() {
-        return push;
-    }
-
-    public void setPush(String push) {
-        this.push = push;
-    }
-
-    public String getPull() {
-        return pull;
-    }
-
-    public void setPull(String pull) {
-        this.pull = pull;
-    }
-
-    public String getClase() {
-        return clase;
-    }
-
-    public void setClase(String clase) {
-        this.clase = clase;
-    }
-
-    public String getObjeto() {
-        return objeto;
-    }
-
-    public void setObjeto(String objeto) {
-        this.objeto = objeto;
+    //metodo commit
+    public void commit(){
+        
     }
     
+    //metodo push
+    public void push(){
+        
+    }
+    
+    //metodo pull
+    public void pull(){
+        
+    }
+    
+    //metodo clase
+    public void clase(){
+        
+    }
+    
+    //metodo objeto
+    public void objeto(){
+        
+    }
+   
 }
     
